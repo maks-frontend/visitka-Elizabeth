@@ -1,0 +1,16 @@
+.container {
+  background-color: #f1e8eb;
+  min-width: 375px;
+}
+
+.wrapper {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url(./img/Group\14\\(4\).svg);
+  display: flex;
+}
+
+.photo-profile {
+  height: 315px;
+  width: 315px;
+}
