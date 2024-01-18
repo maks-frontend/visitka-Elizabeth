@@ -58,3 +58,61 @@
   font-family: Mr De Haviland;
   font-weight: 400;
 }
+
+.section-details {
+  margin-bottom: 34px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.button-details {
+  margin-right: 7px;
+  height: 54px;
+  width: 54px;
+  border: none;
+  border-radius: 55px;
+  background: radial-gradient(white 1%, #D3D2D2 71%, #B5B5B5 100%);
+}
+
+.icon-plus {
+  fill: #515151;
+}
+
+.list-buttons {
+  margin-bottom: 58px;
+  gap: 23px;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  align-items: center
+}
+
+.buttons-link {
+
+}
+
+.buttons-style {
+  height: 59px;
+  width: 292px;
+  border: none;
+  background: radial-gradient(white 1%, #D3D2D2 71%, #B5B5B5 100%); 
+  border-radius: 55px;
+}
+
+.line {
+  margin-bottom: 58px;
+  height: 20px;
+  width: 320px;
+}
+
+.button-download {
+  height: 59px;
+  width: 292px;
+  border-radius: 55px; 
+  border: 1px #515151 solid;
+  background-color: inherit;
+}
+
+.icon-right {
+  margin-right: 11px;
+}

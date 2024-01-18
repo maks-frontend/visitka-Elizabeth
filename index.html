@@ -11,6 +11,9 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&display=swap"
       rel="stylesheet" />
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap"
       rel="stylesheet" />
@@ -42,30 +45,38 @@
       </div>
     </header>
     <main>
-        <section class="container">
+        <section class="section-details container">
             <button class="button-details">
-            
+              <svg class="icon-plus" width="30" height="30">
+                <use href="./img/icons.svg#icon-plus"></use>
+              </svg>
             </button>
             <p>детальніше про себе</p>
         </section>
-        
-      <div>
-        <button>Консультація</button>
-        <button>
-          <a href="https://instagram.com/life_is_1_moment?igshid=NDc0ODY0MjQ="
-            >Портфоліо</a
-          >
+        <section class="container">
+        <ul class="list-buttons">
+          <li class="buttons-link"><button class="buttons-style">Консультація</button></li>
+          <li class="buttons-link"><button class="buttons-style"><a href="https://instagram.com/life_is_1_moment?igshid=NDc0ODY0MjQ=">Портфоліо</a></button></li>
+          <li class="buttons-link"><button class="buttons-style">Прайс</button></li>
+          <li class="buttons-link"><button class="buttons-style">Сертифікати</button></li>
+        </ul>
+      </section>
+      
+      <section class="container">
+        <img class="line" src="./img/line.svg" alt="img" />
+
+        <button class="button-download">Скачати Безкоштовно
+          <svg class="icon-right" width="25" height="25">
+            <use href="./img/icons.svg#icon-right"></use>
+          </svg>
         </button>
-        <button>Прайс</button>
-        <button>Сертифікати</button>
-
-        <img src="./img/pngegg (89) 2.svg" alt="img" />
-
-        <button>Скачати Безкоштовно</button>
         <p>топ 5 програм для обробки фото</p>
 
-        <img src="./img/pngegg (89) 2.svg" alt="img" />
-      </div>
+        <img class="line" src="./img/line.svg" alt="img" />
+      
+      </section>
+
+        
 
       <div>
         <h3>ВІДГУКИ</h3>
