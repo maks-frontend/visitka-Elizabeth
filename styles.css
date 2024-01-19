@@ -1,6 +1,7 @@
 .container {
   background-color: #f1e8eb;
   min-width: 375px;
+  overflow: hidden;
 }
 
 .wrapper {
@@ -91,7 +92,7 @@
 
 }
 
-.buttons-style {
+.buttons-style { 
   height: 59px;
   width: 292px;
   border: none;
@@ -99,6 +100,17 @@
   border-radius: 55px;
 }
 
+.buttons-style:hover, .buttons-style:focus, .buttons-style:active {
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+  cursor: pointer;
+  background: #D3D3D3;
+}
+ 
+.download-user {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
 .line {
   margin-bottom: 58px;
   height: 20px;
@@ -106,6 +118,11 @@
 }
 
 .button-download {
+  margin-bottom: 8px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 24px;
   height: 59px;
   width: 292px;
   border-radius: 55px; 
@@ -113,6 +130,39 @@
   background-color: inherit;
 }
 
+.button-download:hover, .button-download:focus, .button-download:active {
+  background-color: #E0E0E0;
+  cursor: pointer;
+}
+
 .icon-right {
-  margin-right: 11px;
+  margin-left: 11px;
+}
+
+.title-download {
+  margin-bottom: 58px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 16px;
+}
+
+.reviews {
+  font-weight: 400;
+  font-size: 24px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.list-reviews {
+  gap: 14px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.images-rev {
+  height: 430px;
+  width: 260px;
 }

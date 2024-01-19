@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE >
+<html lang="ua">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -20,7 +20,9 @@
 
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./styles.css" />
+    <script src="./scr.js"></script>
   </head>
+
 
   <body>
     <header class="header">
@@ -56,7 +58,7 @@
         <section class="container">
         <ul class="list-buttons">
           <li class="buttons-link"><button class="buttons-style">Консультація</button></li>
-          <li class="buttons-link"><button class="buttons-style"><a href="https://instagram.com/life_is_1_moment?igshid=NDc0ODY0MjQ=">Портфоліо</a></button></li>
+          <li class="buttons-link"><a href="https://instagram.com/life_is_1_moment?igshid=NDc0ODY0MjQ="><button class="buttons-style" type="button">Портфоліо</button></a></li>
           <li class="buttons-link"><button class="buttons-style">Прайс</button></li>
           <li class="buttons-link"><button class="buttons-style">Сертифікати</button></li>
         </ul>
@@ -64,26 +66,40 @@
       
       <section class="container">
         <img class="line" src="./img/line.svg" alt="img" />
-
-        <button class="button-download">Скачати Безкоштовно
+        <div class="download-user"><button class="button-download">Скачати Безкоштовно
           <svg class="icon-right" width="25" height="25">
             <use href="./img/icons.svg#icon-right"></use>
           </svg>
-        </button>
-        <p>топ 5 програм для обробки фото</p>
+        </button></div>
+        
+        <p class="title-download">топ 5 програм для обробки фото</p>
 
         <img class="line" src="./img/line.svg" alt="img" />
       
       </section>
-
-        
-
-      <div>
-        <h3>ВІДГУКИ</h3>
-        <img src="./img/ 2 (1).png" alt="photo1" />
-        <img src="./imIMG_9588 2 (1).png" alt="photo2" />
-        <img src="./ig/IMG_9588 2 (1).png" alt="photo3" />
-      </div>
+      <section class="container">
+        <h3 class="reviews">ВІДГУКИ</h3>
+        <div class="swiper-container">
+  <div class="list-reviews swiper-wrapper">
+    <div class="swiper-slide">
+      <img class="images-rev" src="./img/phrewiews/reviews1.jpg" alt="photo-reviews">
+    </div>
+    <div class="swiper-slide">
+      <img class="images-rev" src="./img/phrewiews/reviews2.jpg" alt="photo-reviews">
+    </div>
+    <div class="swiper-slide">
+      <img class="images-rev" src="./img/phrewiews/reviews3.jpg" alt="photo-reviews">
+    </div>
+    <div class="swiper-slide">
+      <img class="images-rev" src="./img/phrewiews/reviews4.jpg" alt="photo-reviews">
+    </div>
+    <div class="swiper-slide">
+      <img class="images-rev" src="./img/phrewiews/reviews5.jpg" alt="photo-reviews">
+    </div>
+  </div>
+  <div class="swiper-pagination"></div>
+   </div>
+      </section>
     </main>
     <footer>
       <img src="./img/pngegg (89) 2.svg" alt="img" />
