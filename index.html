@@ -20,7 +20,9 @@
 
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="./scr.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </head>
 
 
@@ -77,49 +79,42 @@
         <img class="line" src="./img/line.svg" alt="img" />
       
       </section>
-      <section class="container">
-        <h3 class="reviews">ВІДГУКИ</h3>
-        <div class="swiper-container">
-  <div class="list-reviews swiper-wrapper">
-    <div class="swiper-slide">
-      <img class="images-rev" src="./img/phrewiews/reviews1.jpg" alt="photo-reviews">
+     <section class="container section-reviews">
+  <h3 class="reviews">ВІДГУКИ</h3>
+<div class="mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img class="images-rev" src="./img/phrewiews/reviews1.jpg" alt="photo-reviews"></div>
+      <div class="swiper-slide"><img class="images-rev" src="./img/phrewiews/reviews2.jpg" alt="photo-reviews"></div>
+      <div class="swiper-slide"><img class="images-rev" src="./img/phrewiews/reviews3.jpg" alt="photo-reviews"></div>
+      <div class="swiper-slide"><img class="images-rev" src="./img/phrewiews/reviews4.jpg" alt="photo-reviews"></div>
+      <div class="swiper-slide"><img class="images-rev" src="./img/phrewiews/reviews5.jpg" alt="photo-reviews"></div>
     </div>
-    <div class="swiper-slide">
-      <img class="images-rev" src="./img/phrewiews/reviews2.jpg" alt="photo-reviews">
-    </div>
-    <div class="swiper-slide">
-      <img class="images-rev" src="./img/phrewiews/reviews3.jpg" alt="photo-reviews">
-    </div>
-    <div class="swiper-slide">
-      <img class="images-rev" src="./img/phrewiews/reviews4.jpg" alt="photo-reviews">
-    </div>
-    <div class="swiper-slide">
-      <img class="images-rev" src="./img/phrewiews/reviews5.jpg" alt="photo-reviews">
-    </div>
+    <div class="swiper-pagination"></div>
   </div>
-  <div class="swiper-pagination"></div>
-   </div>
-      </section>
-    </main>
-    <footer>
-      <img src="./img/pngegg (89) 2.svg" alt="img" />
-      <p>
-        <a href="https://instagram.com/e_lisabetha?igshid=NDc0ODY0MjQ="
-          ><img src="./img/інста.svg" alt="instagram"
-        /></a>
-      </p>
-      <p>
-        <a href="tel:380636773345;"
-          ><img src="./img/telegram (2) 1.svg" alt="telegram"
-        /></a>
-      </p>
 
-      <h5>
-        © 2022
-        <a href="https://instagram.com/annvalen_designer?igshid=NDc0ODY0MjQ="
-          ><u>ann_valen</u></a
-        >
-      </h5>
+  <script>
+    var swiper = new Swiper(".mySwiper", {});
+  </script>
+</section>
+    </main>
+    <footer class="container">
+     <img class="line" src="./img/line.svg" alt="img">
+     <ul class="wrapper-link-footer">
+        <li class="link-instagram-footer">
+          <a href="https://instagram.com/e_lisabetha?igshid=NDc0ODY0MjQ="
+            ><img src="./img/instagram.svg" alt="instagram"></img></a>
+        </li>
+        <li class="link-telegram-footer">
+          <a href="https://t.me/liza_photo_video"
+            ><img src="./img/telegram.svg" alt="telegram"
+          /></a>
+        </li>
+        </ul>
+        <div class="footer-link">
+           <p>© 2022</p>
+        <a class="link-ann" href="https://instagram.com/annvalen_designer?igshid=NDc0ODY0MjQ="
+          >ann_valen</a>
+        </div>
     </footer>
   </body>
 </html>

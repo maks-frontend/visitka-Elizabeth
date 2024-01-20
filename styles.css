@@ -148,6 +148,7 @@
 }
 
 .reviews {
+  margin-bottom: 28px;
   font-weight: 400;
   font-size: 24px;
   justify-content: center;
@@ -155,14 +156,35 @@
   display: flex;
 }
 
-.list-reviews {
-  gap: 14px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
+.swiper-wrapper {
+margin-left: 20px;
 }
 
 .images-rev {
   height: 430px;
   width: 260px;
+}
+
+.section-reviews {
+  margin-bottom: 63px;
+  height: 522px;
+}
+
+.wrapper-link-footer {
+  margin-bottom: 35px;
+  gap: 23px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.link-ann {
+  margin-left: 5px;
+  text-decoration: underline;
+}
+
+.footer-link {
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
