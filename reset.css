@@ -5,9 +5,10 @@
 }
 
 body {
+  overflow-x: hidden;
   min-width: 320px;
   margin: 0;
-	width: 375px;
+	width: 100%;
 	background-color: #F1E8EB;
   font-family: 'Cormorant Garamond', serif;
   color: black;

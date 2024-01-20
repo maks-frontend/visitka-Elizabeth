@@ -50,7 +50,7 @@
     </header>
     <main>
         <section class="section-details container">
-            <button class="button-details">
+            <button onclick="openModal()" class="button-details">
               <svg class="icon-plus" width="30" height="30">
                 <use href="./img/icons.svg#icon-plus"></use>
               </svg>
@@ -96,6 +96,8 @@
     var swiper = new Swiper(".mySwiper", {});
   </script>
 </section>
+
+    </div>
     </main>
     <footer class="container">
      <img class="line" src="./img/line.svg" alt="img">
@@ -116,5 +118,27 @@
           >ann_valen</a>
         </div>
     </footer>
+    <div id="myModal" class="modal-container">
+      <div>
+        <div class="modal-window"><button onclick="closeModal()" class="button-details">
+              <svg class="icon-plus" width="30" height="30">
+                <use href="./img/icons.svg#icon-minus"></use>
+              </svg>
+            </button>
+        <p class="modal-title">детальніше про себе</p></div>
+        
+        <p class="modal-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci sed ipsum veniam dolores unde ducimus vitae commodi reiciendis laboriosam delectus quo laborum corporis, eum rem perspiciatis quia officia ab inventore!</p>
+        <script>
+        function openModal() {
+            document.getElementById("myModal").style.display = "block";
+        }
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+        }
+    </script>
+        
+      </div>
+
   </body>
+ 
 </html>
