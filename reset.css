@@ -41,6 +41,10 @@ a {
 }
 
 .container {
+  max-width: 410px;
+  background-color: #f1e8eb;
+  min-width: 375px;
+  overflow: hidden;
   margin: 0 auto;
   padding: 0 20px;
 }
